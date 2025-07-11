@@ -71,7 +71,7 @@ class LivewireServiceProvider extends \GSManager\Support\ServiceProvider
     {
         if (class_exists(AboutCommand::class) && class_exists(InstalledVersions::class)) {
             AboutCommand::add('Livewire', [
-                'Livewire' => InstalledVersions::getPrettyVersion('livewire/livewire'),
+                'Livewire' => InstalledVersions::getPrettyVersion('gsmanager-cloud/livewire'),
             ]);
         }
 
