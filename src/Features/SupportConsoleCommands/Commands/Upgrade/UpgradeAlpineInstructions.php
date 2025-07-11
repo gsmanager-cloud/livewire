@@ -22,7 +22,7 @@ class UpgradeAlpineInstructions extends UpgradeStep
         $console->newLine();
         $console->line('If you were accessing Alpine via JS bundle you can now import Livewire\'s ESM module instead and call Livewire.start() when ready, for example:');
         $console->newLine();
-        $console->line('import { Livewire, Alpine } from \'../../vendor/livewire/livewire/dist/livewire.esm\';');
+        $console->line('import { Livewire, Alpine } from \'../../vendor/gsmanager-cloud/livewire/dist/livewire.esm\';');
         $console->line('Alpine.plugin(yourCustomPlugin);');
         $console->line('Livewire.start();');
 

@@ -62,9 +62,9 @@ Represents the result of compiling a single-file component, containing all gener
 **Properties**:
 ```php
 public string $className;      // e.g., "Livewire\Compiled\Counter_abc123"
-public string $classPath;      // e.g., "/storage/framework/views/livewire/classes/Counter_abc123.php"
+public string $classPath;      // e.g., "/storage/framework/views/gsmanager-cloud/classes/Counter_abc123.php"
 public string $viewName;       // e.g., "livewire-compiled::counter_abc123"
-public string $viewPath;       // e.g., "/storage/framework/views/livewire/views/counter_abc123.blade.php"
+public string $viewPath;       // e.g., "/storage/framework/views/gsmanager-cloud/views/counter_abc123.blade.php"
 public bool $isExternal;       // true if using external class reference
 public ?string $externalClass; // e.g., "App\Livewire\Counter" if external
 public string $hash;           // Cache invalidation hash
