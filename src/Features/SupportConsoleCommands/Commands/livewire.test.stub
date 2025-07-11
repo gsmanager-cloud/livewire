@@ -1,0 +1,18 @@
+<?php
+
+namespace [testnamespace];
+
+use [classwithnamespace];
+use GSManager\Foundation\Testing\RefreshDatabase;
+use GSManager\Foundation\Testing\WithFaker;
+use Livewire\Livewire;
+use Tests\TestCase;
+
+class [testclass] extends TestCase
+{
+    public function test_renders_successfully()
+    {
+        Livewire::test([class]::class)
+            ->assertStatus(200);
+    }
+}
